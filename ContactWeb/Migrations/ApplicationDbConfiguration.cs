@@ -5,15 +5,15 @@ namespace ContactWeb.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<ContactWeb.Models.ContactWebContext>
+    internal sealed class ApplicationDbConfiguration : DbMigrationsConfiguration<ContactWeb.Models.ApplicationDbContext>
     {
-        public Configuration()
+        public ApplicationDbConfiguration()
         {
             AutomaticMigrationsEnabled = true;
-            ContextKey = "ContactWeb.Models.ContactWebContext";
+            ContextKey = "ContactWeb.Models.ApplicationDbContext";
         }
 
-        protected override void Seed(ContactWeb.Models.ContactWebContext context)
+        protected override void Seed(ContactWeb.Models.ApplicationDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 
