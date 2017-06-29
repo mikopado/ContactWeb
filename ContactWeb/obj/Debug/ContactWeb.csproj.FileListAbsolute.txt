@@ -115,3 +115,6 @@ C:\Users\miche\Desktop\Coding\ASP.NET\ContactWeb\ContactWeb\obj\Debug\ContactWeb
 C:\Users\miche\Desktop\Coding\ASP.NET\ContactWeb\ContactWeb\bin\ContactWeb.dll.config
 C:\Users\miche\Desktop\Coding\ASP.NET\ContactWeb\ContactWeb\bin\ContactWeb.dll
 C:\Users\miche\Desktop\Coding\ASP.NET\ContactWeb\ContactWeb\bin\ContactWeb.pdb
+C:\Users\miche\Desktop\Coding\ASP.NET\ContactWeb\ContactWeb\obj\Debug\ContactWeb.csprojResolveAssemblyReference.cache
+C:\Users\miche\Desktop\Coding\ASP.NET\ContactWeb\ContactWeb\obj\Debug\ContactWeb.Migrations.InitialCreate.resources
+C:\Users\miche\Desktop\Coding\ASP.NET\ContactWeb\ContactWeb\obj\Debug\ContactWeb.csproj.GenerateResource.Cache
