@@ -1,4 +1,3 @@
-C:\Users\miche\Desktop\Coding\ASP.NET\ContactWeb\ContactWeb\obj\Debug\ContactWeb.csprojResolveAssemblyReference.cache
 C:\Users\miche\Desktop\Coding\ASP.NET\ContactWeb\ContactWeb\bin\ApplicationInsights.config
 C:\Users\miche\Desktop\Coding\ASP.NET\ContactWeb\ContactWeb\bin\roslyn\csc.exe
 C:\Users\miche\Desktop\Coding\ASP.NET\ContactWeb\ContactWeb\bin\roslyn\csc.exe.config
@@ -118,3 +117,4 @@ C:\Users\miche\Desktop\Coding\ASP.NET\ContactWeb\ContactWeb\obj\Debug\ContactWeb
 C:\Users\miche\Desktop\Coding\ASP.NET\ContactWeb\ContactWeb\obj\Debug\ContactWeb.csproj.GenerateResource.Cache
 C:\Users\miche\Desktop\Coding\ASP.NET\ContactWeb\ContactWeb\obj\Debug\ContactWeb.dll
 C:\Users\miche\Desktop\Coding\ASP.NET\ContactWeb\ContactWeb\obj\Debug\ContactWeb.pdb
+C:\Users\miche\Desktop\Coding\ASP.NET\ContactWeb\ContactWeb\obj\Debug\ContactWeb.csprojResolveAssemblyReference.cache
