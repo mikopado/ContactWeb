@@ -17,6 +17,7 @@ namespace ContactWeb.Models
     
         public ContactWebContext() : base("name=ContactWebContext")
         {
+
         }
 
         public System.Data.Entity.DbSet<ContactWeb.Models.Contact> Contacts { get; set; }

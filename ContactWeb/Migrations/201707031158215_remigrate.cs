@@ -3,7 +3,7 @@ namespace ContactWeb.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InitialCreate : DbMigration
+    public partial class remigrate : DbMigration
     {
         public override void Up()
         {
@@ -18,7 +18,8 @@ namespace ContactWeb.Migrations
                         Email = c.String(),
                         PhonePrimary = c.String(),
                         PhoneSecondary = c.String(),
-                        StreetAddress = c.String(),                        
+                        StreetAddress1 = c.String(),
+                        StreetAddress2 = c.String(),
                         Birthday = c.DateTime(nullable: false),
                         City = c.String(),
                         State = c.String(),

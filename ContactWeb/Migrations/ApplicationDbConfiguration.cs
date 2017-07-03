@@ -9,8 +9,7 @@ namespace ContactWeb.Migrations
     {
         public ApplicationDbConfiguration()
         {
-            AutomaticMigrationsEnabled = false;
-            ContextKey = "ContactWeb.Models.ApplicationDbContext";
+            AutomaticMigrationsEnabled = true;           
         }
 
         protected override void Seed(ContactWeb.Models.ApplicationDbContext context)
