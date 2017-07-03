@@ -10,7 +10,6 @@ namespace ContactWeb.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(ContactWeb.Models.ContactWebContext context)
@@ -100,20 +99,19 @@ namespace ContactWeb.Migrations
                     UserId = new Guid("efd40f70-63cf-4aa4-9c1f-37b98436fc90")
                                     ,
                     Zip = "65432-0123"
-                }
-            );
+                });
             //  This method will be called after migrating to the latest version.
 
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.
-            //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
+                //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
+                //  to avoid creating duplicate seed data. E.g.
+                //
+                //    context.People.AddOrUpdate(
+                //      p => p.FullName,
+                //      new Person { FullName = "Andrew Peters" },
+                //      new Person { FullName = "Brice Lambson" },
+                //      new Person { FullName = "Rowan Miller" }
+                //    );
+                //
         }
     }
 }
