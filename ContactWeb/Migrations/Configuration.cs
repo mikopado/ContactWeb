@@ -14,9 +14,7 @@ namespace ContactWeb.Migrations
         }
 
         protected override void Seed(ContactWeb.Models.ContactWebContext context)
-        {
-            /*888f8d35-fae8-4577-8b50-559026b61802
-                efd40f70-63cf-4aa4-9c1f-37b98436fc90*/
+        {           
             context.Contacts.AddOrUpdate(
             p => p.Id,
             new Models.Contact
